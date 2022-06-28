@@ -32,7 +32,7 @@ git push -f origin
 
 git status
 echo "This is after git push"
-#GITHUB_TOKEN=$SSH GITHUB_HOST=github.pie.apple.com hub pull-request -b filecomp -h Data_Fix -m "test_hub"
+#GITHUB_TOKEN=$SSH GITHUB_HOST=github.pie.apple.com hub pull-request -b Test_1 -h Data_Fix -m "test_hub"
 
 git checkout filecomp
 git status
